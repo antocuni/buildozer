@@ -106,6 +106,9 @@ class TargetAndroid(Target):
         if self.buildozer.log_level >= 2:
             self.extra_p4a_args += ' --debug'
 
+        # XXX antocuni
+        self.extra_p4a_args += ' --fileprovider-paths=./file_paths.xml'
+
         self.warn_on_deprecated_tokens()
 
     def warn_on_deprecated_tokens(self):
