@@ -107,7 +107,7 @@ class TargetAndroid(Target):
             self.extra_p4a_args += ' --debug'
 
         # XXX antocuni
-        self.extra_p4a_args += ' --fileprovider-paths=./file_paths.xml'
+        self.extra_p4a_args += ' --fileprovider-paths=/github/workspace/launcher/file_paths.xml'
 
         self.warn_on_deprecated_tokens()
 
