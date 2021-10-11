@@ -316,6 +316,9 @@ android.allow_backup = True
 # setup.py if you're using Poetry, but you need to add "toml" to source.include_exts.
 #p4a.setup_py = false
 
+# (str) extra arguments to pass to p4a's toolchain.py
+#p4a.extra_args =
+
 
 #
 # iOS specific
